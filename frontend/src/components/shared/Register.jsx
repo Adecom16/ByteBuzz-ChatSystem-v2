@@ -141,8 +141,7 @@ export default function Register() {
             />
             <Label
               htmlFor="profile"
-              className="w-20 h-20 rounded-full bg-secondary flex items-center justify-center cursor-pointer"
-            >
+              className="w-20 h-20 rounded-full bg-secondary flex items-center justify-center cursor-pointer">
               {formDetails.profile ? (
                 <img
                   src={URL.createObjectURL(formDetails.profile)}
@@ -175,8 +174,7 @@ export default function Register() {
           <Button
             type="submit"
             className="text-foreground"
-            disabled={isLoading}
-          >
+            disabled={isLoading}>
             {isLoading ? (
               <>
                 <Loader2 className="animate-spin w-4 h-4 mr-2" />
